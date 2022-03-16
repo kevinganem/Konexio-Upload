@@ -4,7 +4,7 @@ const express = require("express");
 const multer = require("multer");
 const fs = require("fs");
 const path = require("path");
-const upload = multer({ dest: "../public/uploads" });
+const upload = multer({ dest: "../../public/uploads" });
 const app = express();
 
 //------------- MIDDLEWARE -------------\\
